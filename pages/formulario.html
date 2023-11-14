@@ -4,25 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo 4</title>
-    <link rel="stylesheet" href="../css/formulario.css">
+    
+<link rel="stylesheet" href="../css/formulario.css">
+<link rel="stylesheet" href="../css/pie__pagina.css">
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/navegacion__paginas.css">
 </head>
 <body>
-    <h1>Formulacio</h1>
+
+ <!-- BARRA NAVEGACION -->
+ <header class="header" >
+    <h1 class="header__h1" >Misiones Turismo</h1>
+    <li class="header__li" >
+        <ul class="header__ul" ><a href="../index.html">Inicio</a></ul>
+        <ul class="header__ul" ><a href="./Salto__Encantado.html">Salto Encantado</a></ul>
+        <ul class="header__ul" ><a href="./Salto__Mocona.html">Salto Moconá</a></ul>
+        <ul class="header__ul" ><a href="./Reducciones__Jesuiticas.html">Reducciones Jesuíticas</a></ul>
+        <ul class="header__ul" ><a href="./formulario.html">Login</a></ul>
+    </li>
+</header>
+<h1 class="header__h1">¡Comparte tu experiencia de viaje!</h1>
 
     <form class="formulario" >
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="destino">Destino del Viaje:</label>
+            <input type="text" id="destino" name="destino" required>
+    
+            <label for="experiencia">Cuéntanos tu Experiencia:</label>
+            <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+    
+            <button type="submit">Enviar Experiencia</button>
+        </form>
 
-        <label for="gusto">Que lugar les gusta mas :</label><br>
-        <input type="checkbox" name="gusto" value="Salto Encantado">Salto Encantado
-        <input type="checkbox" name="gusto" value="Salto Mocona">Salto Mocona
-        <input type="checkbox" name="gusto" value="Reducciones Jesuiticas">Reducciones Jesuiticas
-        
+<!-- PIE PAGINA -->
+<footer class="footer__pie" >
+    <div class="p" >
+        <p class="footer__pie_p" >Misiones Turismo-Grupo 7</p>
+    </div>
+    
+    <div>
+        <a target="_blank" href="https://r.search.yahoo.com/_ylt=AwrO_vVUfFNlx8kLsvRU04lQ;_ylu=Y29sbwNncTEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1699998932/RO=10/RU=https%3a%2f%2fes-es.facebook.com%2fenespanol%2f/RK=2/RS=Q4zSZ711_aBrD4JQfNJJ5zSWqLk-"><img class="footer_img" src="../assets/FB_icon-icons.com_65484.png" alt=""></a>
+        <a target="_blank" href="https://r.search.yahoo.com/_ylt=Awrjd4uFfVNlWzkMEIZU04lQ;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1699999237/RO=10/RU=https%3a%2f%2fwww.instagram.com%2f/RK=2/RS=j.auuEu1oKPAJu2m.pkKiQnIujY-"><img class="footer_img" src="../assets/instagram_f_icon-icons.com_65485.png" alt=""></a>
+    </div>
+</footer>
 
-
-
-
-
-    </form>
+</body>
+</html>
 </body>
 </html>
