@@ -1,8 +1,9 @@
+/* CSS DE LA PAGINA PRINCIPAL */
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    background-color: rgb(247, 247, 247);
 }
 
 .contenedor__main{

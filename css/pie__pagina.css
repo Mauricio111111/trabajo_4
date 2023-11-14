@@ -1,3 +1,5 @@
+/* CSS PIE DE PAGINA  */
+
 body{
     margin: 0;
     padding: 0;
@@ -5,14 +7,27 @@ body{
     box-sizing: border-box;
 }
 
-
 .footer__pie{
-    padding: 30px;
+    display: flex;
+    margin-top: 5xp;
+    padding: 25px;
     background-color: rgb(11, 116, 116);
-    text-align: center;
-    color: azure;
     font-size: 19px;
-    margin-bottom: 0;
+    align-items: center;
+    justify-content: end;
+    color: aliceblue;
 }
 
+.p{
+    margin-right: 430px;
+}
 
+.footer_img{
+    width: 50px;
+    padding: 10px;
+}
+
+/*.img:hover{
+    width: 53px;
+    color: blanchedalmond;
+}*/
