@@ -38,3 +38,7 @@ a{
     color: rgb(254, 254, 254);
     text-decoration: none;
 }
+
+a:hover{
+    color: antiquewhite;
+}
