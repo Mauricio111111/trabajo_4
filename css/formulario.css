@@ -5,11 +5,14 @@ body{
     background-color: rgb(247, 247, 247);
 }
 
+h2{
+    text-align: center;
+}
 
     form {
         max-width: 500px;
         margin: 100px;
-}
+    }
 
     label {
     display: block;
@@ -25,18 +28,11 @@ body{
         }
 
     .button {
-           
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-bottom: 89px;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 895px;
         }
 
-       
-        .header__h1{ 
-            text-align:right;
-            
-            
-        }    

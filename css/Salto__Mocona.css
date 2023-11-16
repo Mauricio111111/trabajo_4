@@ -1,7 +1,7 @@
 /* CSS MOCONA */
 
 body{
-    background-color: rgb(247, 247, 247);
+    background-color: #F0F8FF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -14,32 +14,39 @@ body{
     text-align: center;
 }
 
-.div__img{
-    background-image: url(../assets/mocona.jpg);
-    background-position: center;
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 350px;
-    margin-left: 40px;
-    margin-right: 40px;
+.div__centro{
+    display: flex;
+    justify-content: center;
+    
 }
+.div__img{
+    height: 100%;
+    width: 1100px;
+    min-width: 500px;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+
 
 .div__p_iframe{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .div__parrafo{
-    margin-left: 40px;
+    margin-left: 220px;
     margin-top: 50px;
+
 }
 
 .div__iframe{
     width: 250px;
     height: 120px;
-    margin-top: 20px;
-    margin-right: 40px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-right: 220px;
+    margin-bottom: 20px;
     min-width: 150px;
 }

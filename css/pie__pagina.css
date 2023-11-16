@@ -19,15 +19,18 @@ body{
 }
 
 .p{
-    margin-right: 430px;
+    margin-right: 490px;
 }
 
 .footer_img{
     width: 50px;
-    padding: 10px;
+    padding: 13px;
 }
 
-/*.img:hover{
-    width: 53px;
-    color: blanchedalmond;
-}*/
+div a img:hover{
+    width: 52px;
+    
+}
+
+
+
